@@ -1,0 +1,9 @@
+server {
+	root /www/<NGINX_APP_PATH>;
+
+	server_name localhost;
+
+	location / {
+		index  index.html index.htm;
+	}
+}
